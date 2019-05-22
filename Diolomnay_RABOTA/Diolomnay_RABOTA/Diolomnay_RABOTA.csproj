@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{625EC4D0-A2FB-47BF-A986-2D58DC937DFB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Diolomnay_RABOTA</RootNamespace>
+    <AssemblyName>Diolomnay_RABOTA</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="contandyet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contandyet.Designer.cs">
+      <DependentUpon>contandyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo_exDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Demo_exDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kontact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kontact.Designer.cs">
+      <DependentUpon>kontact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logpas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logpas.Designer.cs">
+      <DependentUpon>logpas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picture.Designer.cs">
+      <DependentUpon>picture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reg.Designer.cs">
+      <DependentUpon>reg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shag.Designer.cs">
+      <DependentUpon>shag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sotrudnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sotrudnik.Designer.cs">
+      <DependentUpon>sotrudnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shag_two.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shag_two.Designer.cs">
+      <DependentUpon>shag_two.cs</DependentUpon>
+    </Compile>
+    <Compile Include="spasibo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="spasibo.Designer.cs">
+      <DependentUpon>spasibo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vibor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vibor.Designer.cs">
+      <DependentUpon>vibor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="contandyet.resx">
+      <DependentUpon>contandyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kontact.resx">
+      <DependentUpon>kontact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logpas.resx">
+      <DependentUpon>logpas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picture.resx">
+      <DependentUpon>picture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg.resx">
+      <DependentUpon>reg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shag.resx">
+      <DependentUpon>shag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sotrudnik.resx">
+      <DependentUpon>sotrudnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shag_two.resx">
+      <DependentUpon>shag_two.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spasibo.resx">
+      <DependentUpon>spasibo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="vibor.resx">
+      <DependentUpon>vibor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Demo_exDataSet.xsc">
+      <DependentUpon>Demo_exDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Demo_exDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Demo_exDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Demo_exDataSet.xss">
+      <DependentUpon>Demo_exDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomDataSet.xsc">
+      <DependentUpon>DiplomDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomDataSet.xss">
+      <DependentUpon>DiplomDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomDataSet1.xsc">
+      <DependentUpon>DiplomDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomDataSet1.xss">
+      <DependentUpon>DiplomDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomDataSet2.xsc">
+      <DependentUpon>DiplomDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomDataSet2.xss">
+      <DependentUpon>DiplomDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
